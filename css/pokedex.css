@@ -1,11 +1,4 @@
-/*-------------------------------------------
- *   Application Styling
--------------------------------------------*/
-
-/* --- Modal Styling ---*/
-
-
-/* --- Dynamic classes for types ---*/
+/*This is the classes for the Pokemon Types*/
 
 .normal {
     background-color: #A8A77A;
@@ -75,10 +68,7 @@
     background-color: #D685AD;
 }
 
-
-/* ------------------------------------------
-*   Layouts
--------------------------------------------*/
+/*Layout of the App*/
 
 * {
     font-size: 1rem;
@@ -95,7 +85,7 @@ body {
 
 .top {
     min-height: 15vh;
-    background-color: rgb(180, 45, 45);
+    background-color: #A9B8C9;
 }
 
 /* Center content */
@@ -103,36 +93,46 @@ body {
 .center {
 
     display: flex;
-    background-color: rgb(202, 179, 159);
+    background-color: #F6EEF0;
     min-height: 70vh;
 
 }
 
 .side {
-    background-color: rgb(212, 212, 212);
+    background-color: #BE4D62;
     flex: 1;
 }
 
 #app {
-    background-color: rgb(255, 255, 255);
+    background-color: #F6EEF0;
     flex: 9;
     padding: 1.5rem;
 }
 
 #create-form {
     text-align: center;
-
 }
 
 h1 {
     text-align: center;
-    color: whitesmoke;
+    color: #5C4E4E;
     font-size: 3rem;
     margin: 0.5rem;
 }
 
 input,
 select {
-    background-color: rgb(233, 205, 205);
+    background-color: #BE4D62;
+    color: #F6EEF0;
+    border: solid;
+    border-color: #5C4E4E;
+    border-width: 2px;
+}
+
+
+/*Input Fields*/
+
+::placeholder {
+    color: #F6EEF0;
 }
 
