@@ -45,6 +45,7 @@ function logic() {
         </span>
     </li>
     `
+    
             //This will ensure the list gets expanded when the user enters more data
             document.getElementById("pokedex-entries").innerHTML += type1;
         }
